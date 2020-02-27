@@ -17,6 +17,10 @@
 </script>
 
 <style scoped>
+    .header {
+        display: inline-block;
+        padding-left: .5em;
+    }
     h1 {
         font-size: 4em;
         margin-bottom: .2em;

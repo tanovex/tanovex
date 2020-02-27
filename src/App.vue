@@ -4,19 +4,18 @@
         <div class="navigation">
             <ul style="list-style:none;">
                 <li>Home</li>
-                <li>Blog</li>
                 <li>Portfolio</li>
                 <li>Contact</li>
             </ul>
         </div>
         <div class="container">
             <div class="content">
+                <img :src="require('./assets/tv2.png')" style="display: inline-block; margin-bottom: -0.7em;" />
                 <Header msg="Tanovex" />
                 <Subtitle msg="Software / Education / Customer Service" />
             </div>
         </div>
         <div class="Portfolio"></div>
-        <div class="Blog"></div>
         <div class="Contact"></div>
         <div class="Footer"></div>
     </div>
@@ -50,6 +49,7 @@
         font-weight: bold;
         font-family: 'Lato';
     }
+
     .navigation {
         display: block;
         width: 100%;
