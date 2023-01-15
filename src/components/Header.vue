@@ -1,20 +1,18 @@
+<script setup lang="ts"> 
+ 
+defineProps<{ 
+    msg: string,
+    class?: string, 
+}>();
+
+</script>
+
 <template>
-    <div class="header">
+    <div class="header" :class="class">
         <h1>{{ msg }}</h1>
     </div>
 </template>
 
-<script>
-    export default {
-        name: 'Header',
-        props: {
-            msg: {
-                default: "Title",
-                type: String
-            }
-        }
-    };
-</script>
 
 <style scoped>
     .header {

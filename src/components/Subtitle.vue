@@ -1,26 +1,24 @@
+<script setup lang="ts"> 
+ 
+defineProps<{ 
+    msg: string,
+    class?: string,
+}>();
+
+</script>
+
 <template>
-    <div class="subtitle">
+    <div class="subtitle" :class="class">
         <span>{{ msg }}</span>
     </div>
 </template>
 
-<script>
-    export default {
-        name: 'Subtitle',
-        props: {
-            msg: {
-                default: "An awesome long subtitle",
-                type: String
-            }
-        }
-    };
-</script>
+
 
 <style scoped>
-    span {
+     span {
         font-size: 1.1em;
         font-weight: bold;
         font-family: 'Lato';
-        color: #00aaff;
     }
 </style>
