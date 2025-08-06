@@ -34,7 +34,7 @@ body {
   margin: 0;
   margin-top: -20px;
   display: flex;
-  place-items: center;
+  place-items: top center;
   min-width: 320px;
   min-height: 100vh;
   font-weight: bold;
@@ -79,7 +79,12 @@ button:focus-visible, .btn:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+nav {
+  margin-top: 2em;
+}
+
 .card {
+  display: flex;
   padding: 2em;
 }
 
@@ -107,4 +112,92 @@ button:focus-visible, .btn:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.text-left {
+  text-align: left;
+}
+
+.markdown-body {
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+
+.markdown-body h1 {
+  font-size: 2.25em;
+}
+.markdown-body h2 {
+  font-size: 1.75em;
+}
+.markdown-body h3 {
+  font-size: 1.5em;
+}
+.markdown-body h4 {
+  font-size: 1.25em;
+}
+.markdown-body h5 {
+  font-size: 1.125em;
+}
+.markdown-body h6 {
+  font-size: 1em;
+}
+
+.markdown-body p {
+  margin: 1em 0;
+  line-height: 1.6;
+}
+.markdown-body ul,
+.markdown-body ol {
+  margin: 1em 0;
+  padding-left: 2em;
+}
+.markdown-body li {
+  margin-bottom: 0.5em;
+}
+.markdown-body blockquote {
+  margin: 1em 0;
+  padding-left: 1em;
+  border-left: 4px solid #ddd;
+  color: #666;
+}
+
+
+.markdown-body table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.markdown-body th,
+.markdown-body td {
+  padding: 12px 16px;
+  border: 1px solid #eee;
+}
+
+.markdown-body th {
+  background-color: #f6f8fa;
+  font-weight: bold;
+}
+.markdown-body code {
+  background-color: #f6f8fa;
+  padding: 0.2em 0.4em;
+  border-radius: 6px;
+}
+.markdown-body pre {
+  background-color: #f6f8fa;
+  padding: 1em;
+  border-radius: 6px;
+  overflow: auto;
+  white-space: pre-wrap;
 }
