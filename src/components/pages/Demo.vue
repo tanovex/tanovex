@@ -1,7 +1,8 @@
 <script setup lang="ts">
-import ImageCard from '../ImageCard.vue'
+import Card from '../Card.vue'
 import ProductCard from '../ProductCard.vue'
 import DigitalProductCard from '../DigitalProductCard.vue'
+import AdsCard from '../AdsCard.vue'
 </script>
 
 <template>
@@ -18,7 +19,7 @@ import DigitalProductCard from '../DigitalProductCard.vue'
             <div class="demo-section">
                 <h2>Media Card</h2>
                 <p class="section-description">Interactive media card with skeleton loading and hover effects</p>
-                <ImageCard />
+                <Card />
             </div>
             
             <div class="demo-section">
@@ -31,6 +32,12 @@ import DigitalProductCard from '../DigitalProductCard.vue'
                 <h2>Digital Product Card</h2>
                 <p class="section-description">WordPress plugin showcase with pricing, features, and ratings</p>
                 <DigitalProductCard />
+            </div>
+            
+            <div class="demo-section">
+                <h2>Affiliate Ads Card</h2>
+                <p class="section-description">Random affiliate advertising component with refresh functionality</p>
+                <AdsCard />
             </div>
         </div>
     </div>
@@ -168,6 +175,7 @@ import DigitalProductCard from '../DigitalProductCard.vue'
     &:nth-child(1) { animation-delay: 0.1s; }
     &:nth-child(2) { animation-delay: 0.2s; }
     &:nth-child(3) { animation-delay: 0.3s; }
+    &:nth-child(4) { animation-delay: 0.4s; }
 }
 
 @keyframes fadeInScale {

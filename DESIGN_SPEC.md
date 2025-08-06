@@ -439,7 +439,7 @@ body::after {
 ### Available Components
 
 #### Cards
-- **ImageCard**: Media card with skeleton loading
+- **Card**: Media card with skeleton loading
 - **ProductCard**: Property listing with favorite functionality
 - **ContentCard**: General purpose content container
 
