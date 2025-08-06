@@ -24,11 +24,15 @@ import Subtitle from './components/Subtitle.vue'
       <nav>
         <router-link to="/" class="btn">Home</router-link>
         <router-link to="/thechitshow" class="btn">The Chit Show</router-link>
-
       </nav>
     </div>
     <div class="card">
-      <router-view></router-view>
+      <Suspense>
+        <router-view />
+        <template #fallback>
+          <div class="loading">Loading...</div>
+        </template>
+      </Suspense>
     </div>
   </div>
 </template>

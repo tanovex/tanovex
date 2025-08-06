@@ -1,4 +1,4 @@
-# 🎬 The Chit Show Episodes
+# 🎬 The Chit Show Episodes Playlist
 
 > *A hilarious workplace comedy series that captures the chaos and camaraderie of office life.*
 
@@ -50,9 +50,9 @@
 ## 🔗 Quick Links
 
 - [🎬 Watch All Episodes](https://www.youtube.com/@thechitshow)
-- [📱 Follow on Social Media](#)
-- [💬 Join the Community](#)
 
 ---
+
+I added this page because I disliked youtube's playlists.
 
 *Last updated: August 2025*
