@@ -1,6 +1,6 @@
 # 🎬 The Chit Show Episodes Playlist
 
-> *A hilarious workplace comedy series that captures the chaos and camaraderie of office life.*
+> *A curated collection of episodes from this hilarious workplace comedy series. Much better than YouTube's playlist feature!*
 
 ---
 
@@ -53,6 +53,10 @@
 
 ---
 
-I added this page because I disliked youtube's playlists.
+## 📝 Why This Page Exists
+
+I created this episode guide because YouTube's playlist feature is terrible for sharing and browsing. This gives friends an easy way to find and watch episodes without dealing with YouTube's clunky interface.
+
+---
 
 *Last updated: August 2025*

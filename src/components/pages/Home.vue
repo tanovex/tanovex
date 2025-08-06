@@ -1,5 +1,4 @@
 <script setup lang="ts">
-
 </script>
 <template>
     <div class="home-content">
@@ -68,17 +67,23 @@
     box-shadow: 0 6px 20px rgba(0, 170, 255, 0.4);
 }
 
+.demo-section {
+    margin-bottom: 3rem;
+}
+
+.demo-section h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    color: #00aaff;
+}
+
 /* Remove old animated section styles */
 
 @media (max-width: 768px) {
     .hero {
         padding: 2rem 1rem;
     }
-    
-    .tech-icon {
-        font-size: 1.5rem;
-    }
-    
     .cta-buttons {
         flex-direction: column;
         align-items: center;

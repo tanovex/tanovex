@@ -23,6 +23,7 @@ import Subtitle from './components/Subtitle.vue'
       </header>
       <nav>
         <router-link to="/" class="btn">Home</router-link>
+        <router-link to="/demo" class="btn">Demo</router-link>
         <router-link to="/thechitshow" class="btn">The Chit Show</router-link>
       </nav>
     </div>
