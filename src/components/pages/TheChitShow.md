@@ -35,6 +35,7 @@
 | **25** | 💡 Lights Out | [📹 Watch](https://www.youtube.com/watch?v=4dg_uqFA688) |
 | **26** | 👩‍💼 Candice Vice | [📹 Watch](https://www.youtube.com/watch?v=DOMASwCnwk4) |
 | **27** | 🏆 Employee of the Year? | [📹 Watch](https://www.youtube.com/watch?v=__EwrZEY9Ts) |
+| **28** | ⚖️ Moment of Truth | [📹 Watch](https://www.youtube.com/watch?v=ctMKq9EjgHs) |
 
 ---
 
@@ -48,7 +49,7 @@
 
 ## 📊 Series Stats
 
-- **Total Episodes:** 27
+- **Total Episodes:** 28
 - **Format:** Short-form comedy
 - **Platform:** YouTube
 - **Genre:** Workplace Comedy
