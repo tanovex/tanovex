@@ -3,7 +3,7 @@
     "target": "ESNext",
     "useDefineForClassFields": true,
     "module": "ESNext",
-    "moduleResolution": "Node",
+    "moduleResolution": "bundler",
     "strict": true,
     "jsx": "preserve",
     "resolveJsonModule": true,
@@ -13,10 +13,12 @@
     "skipLibCheck": true,
     "noEmit": true
   },
+  "include": ["src/**/*", "vue-shim.d.ts"],
   "exclude": [
     "**/dist",
     "**/node_modules",
-    "**/test"
+    "**/test",
+    "vite.config.ts"
   ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

@@ -248,7 +248,8 @@ button:hover, .btn:hover {
   box-shadow: 0 0 15px rgba(0, 170, 255, 0.3);
 }
 
-.card {
+/* Generic card for other content, not the Card component */
+.content-card:not(.card-component) {
   display: flex;
   padding: 2em;
 }

@@ -38,6 +38,14 @@
 
 ---
 
+## 🌟 Bonus Content and Special Cameos
+
+| Show | Episode | Link |
+|------|---------|------|
+| **Bistro Huddy** | 🍽️ Chit Comes to Bistro Huddy | [📹 Watch](https://www.youtube.com/shorts/QiBykgqNSyE) |
+| **Chit's New Friend** | 🐕 William the One-Eyed Pug (Bonus) | [📹 Watch](https://www.youtube.com/shorts/GsBMXsQ0fgY) |
+| **Bonus Chit** | 🗣️ Myeah! | [📹 Watch](https://youtube.com/shorts/YhYXYQGk27g) |
+
 ## 📊 Series Stats
 
 - **Total Episodes:** 27

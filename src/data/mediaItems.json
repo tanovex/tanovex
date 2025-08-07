@@ -1,0 +1,50 @@
+[
+  {
+    "id": 0,
+    "title": "Drive (2011)",
+    "description": "Driver is a skilled Hollywood stuntman who moonlights as a getaway driver...",
+    "image": "https://assets.codepen.io/285131/uslmOwQpdRRUwr6AmBP6JdzeHjS.jpg",
+    "alt": "Drive movie poster",
+    "category": "Movies",
+    "tags": [],
+    "photographer": "",
+    "likes": 1023,
+    "views": 6543
+  },
+  {
+    "id": 1,
+    "title": "Cyberpunk City Night",
+    "description": "A stunning view of a futuristic cyberpunk cityscape at night with neon lights.",
+    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=250&fit=crop",
+    "alt": "Cyberpunk cityscape with neon lights",
+    "category": "Digital Art",
+    "tags": ["cyberpunk", "city", "neon", "futuristic"],
+    "photographer": "Digital Artist",
+    "likes": 1247,
+    "views": 8392
+  },
+  {
+    "id": 2,
+    "title": "Neon Tech Interface",
+    "description": "Abstract technological interface with glowing elements and data streams.",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=250&fit=crop",
+    "alt": "Abstract tech interface with neon elements",
+    "category": "Technology",
+    "tags": ["interface", "technology", "abstract", "neon"],
+    "photographer": "Tech Visualizer",
+    "likes": 892,
+    "views": 5634
+  },
+  {
+    "id": 3,
+    "title": "Holographic Data Stream",
+    "description": "Futuristic holographic display showing streaming data and code matrices.",
+    "image": "https://images.unsplash.com/photo-1516192518150-0d8fee5425e3?w=400&h=250&fit=crop",
+    "alt": "Holographic data visualization in cyberpunk style",
+    "category": "Sci-Fi",
+    "tags": ["hologram", "data", "futuristic", "code"],
+    "photographer": "Future Tech",
+    "likes": 1573,
+    "views": 9284
+  }
+]

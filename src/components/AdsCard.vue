@@ -1,120 +1,18 @@
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
+import { onMounted } from 'vue'
+import { useAdsStore } from '../stores/adsStore'
+import refreshIcon from '../assets/refresh-icon.svg'
 
-// Define the ad type
-interface AffiliateAd {
-  id: number
-  title: string
-  description: string
-  image: string
-  price: string
-  originalPrice: string
-  discount: string
-  cta: string
-  badge: string
-  category: string
-  rating: number
-  features: string[]
-}
+const adsStore = useAdsStore()
 
-const isLoading = ref(true)
-const currentAd = ref<AffiliateAd | null>(null)
-
-// Sample affiliate ads data
-const affiliateAds: AffiliateAd[] = [
-  {
-    id: 1,
-    title: "NordVPN - Ultimate Security",
-    description: "Get 70% off NordVPN's 2-year plan + 3 months free. Military-grade encryption for ultimate online privacy.",
-    image: "https://images.unsplash.com/photo-1563206767-5b18f218e8de?w=400&h=250&fit=crop",
-    price: "$3.99/month",
-    originalPrice: "$11.95/month",
-    discount: "70% OFF",
-    cta: "Get Deal",
-    badge: "Sponsored",
-    category: "VPN",
-    rating: 4.9,
-    features: ["256-bit encryption", "60+ countries", "No-logs policy"]
-  },
-  {
-    id: 2,
-    title: "Hostinger - Web Hosting",
-    description: "Start your website today with Hostinger's premium hosting. Free domain, SSL, and 24/7 support included.",
-    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=250&fit=crop",
-    price: "$2.99/month",
-    originalPrice: "$9.99/month",
-    discount: "Save 70%",
-    cta: "Start Now",
-    badge: "Ad",
-    category: "Hosting",
-    rating: 4.7,
-    features: ["Free domain", "99.9% uptime", "24/7 support"]
-  },
-  {
-    id: 3,
-    title: "Skillshare - Learn Design",
-    description: "Join millions learning creative skills on Skillshare. Get 30% off annual premium membership.",
-    image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=400&h=250&fit=crop",
-    price: "$168/year",
-    originalPrice: "$240/year",
-    discount: "30% OFF",
-    cta: "Join Now",
-    badge: "Partner",
-    category: "Education",
-    rating: 4.6,
-    features: ["15,000+ classes", "Offline viewing", "No ads"]
-  },
-  {
-    id: 4,
-    title: "Canva Pro - Design Tools",
-    description: "Create stunning designs with Canva Pro. Access premium templates, fonts, and collaboration tools.",
-    image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=250&fit=crop",
-    price: "$14.99/month",
-    originalPrice: "$19.99/month",
-    discount: "25% OFF",
-    cta: "Try Free",
-    badge: "Sponsored",
-    category: "Design",
-    rating: 4.8,
-    features: ["Premium templates", "Brand kit", "Team collaboration"]
-  },
-  {
-    id: 5,
-    title: "ExpressVPN - Fast & Secure",
-    description: "Experience lightning-fast VPN with ExpressVPN. 30-day money-back guarantee included.",
-    image: "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=400&h=250&fit=crop",
-    price: "$8.32/month",
-    originalPrice: "$12.95/month",
-    discount: "35% OFF",
-    cta: "Get Started",
-    badge: "Ad",
-    category: "VPN",
-    rating: 4.9,
-    features: ["30-day guarantee", "94+ countries", "24/7 support"]
-  }
-]
-
-// Load a random ad
-const loadRandomAd = () => {
-  const randomIndex = Math.floor(Math.random() * affiliateAds.length)
-  currentAd.value = affiliateAds[randomIndex]
-}
-
-// Simulate loading and load random ad
-onMounted(() => {
-  setTimeout(() => {
-    loadRandomAd()
-    isLoading.value = false
-  }, 1500) // Show skeleton for 1.5 seconds
+// Load initial ad
+onMounted(async () => {
+  await adsStore.loadRandomAd()
 })
 
 // Function to refresh ad
-const refreshAd = () => {
-  isLoading.value = true
-  setTimeout(() => {
-    loadRandomAd()
-    isLoading.value = false
-  }, 800)
+const refreshAd = async () => {
+  await adsStore.refreshAd()
 }
 </script>
 
@@ -122,7 +20,7 @@ const refreshAd = () => {
     <div class="container">
         <Transition name="ad-transition" mode="out-in">
             <!-- Skeleton loading ad -->
-            <div v-if="isLoading" key="skeleton" class="ads-card">
+            <div v-if="adsStore.isLoading" key="skeleton" class="ads-card">
                 <div class="ad-header">
                     <div class="ad-badge skeleton"></div>
                     <div class="refresh-btn skeleton"></div>
@@ -145,30 +43,30 @@ const refreshAd = () => {
             </div>
             
             <!-- Loaded ad content -->
-            <div v-else-if="currentAd" key="loaded" class="ads-card">
+            <div v-else-if="adsStore.currentAd" key="loaded" class="ads-card">
                 <div class="ad-header">
-                    <div class="ad-badge">{{ currentAd.badge }}</div>
+                    <div class="ad-badge">{{ adsStore.currentAd.badge }}</div>
                     <button class="refresh-btn" @click="refreshAd" title="Load new ad">
-                        <img src="../assets/refresh-icon.svg" alt="Refresh" class="refresh-icon" />
+                        <img :src="refreshIcon" alt="Refresh" class="refresh-icon" />
                     </button>
                 </div>
                 <div class="ad-image">
-                    <img :src="currentAd.image" :alt="currentAd.title" />
+                    <img :src="adsStore.currentAd.image" :alt="adsStore.currentAd.title" />
                     <div class="image-overlay">
-                        <div class="category-tag">{{ currentAd.category }}</div>
+                        <div class="category-tag">{{ adsStore.currentAd.category }}</div>
                     </div>
                 </div>
                 <div class="ad-content">
-                    <div class="ad-title">{{ currentAd.title }}</div>
+                    <div class="ad-title">{{ adsStore.currentAd.title }}</div>
                     <div class="ad-rating">
                         <div class="stars">
-                            <span v-for="n in 5" :key="n" class="star" :class="{ filled: n <= Math.floor(currentAd.rating) }">★</span>
+                            <span v-for="n in 5" :key="n" class="star" :class="{ filled: n <= Math.floor(adsStore.currentAd.rating) }">★</span>
                         </div>
-                        <span class="rating-value">{{ currentAd.rating }}</span>
+                        <span class="rating-value">{{ adsStore.currentAd.rating }}</span>
                     </div>
-                    <p class="ad-description">{{ currentAd.description }}</p>
+                    <p class="ad-description">{{ adsStore.currentAd.description }}</p>
                     <div class="ad-features">
-                        <div v-for="feature in currentAd.features" :key="feature" class="feature">
+                        <div v-for="feature in adsStore.currentAd.features" :key="feature" class="feature">
                             <svg class="feature-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M20 6L9 17l-5-5"/>
                             </svg>
@@ -177,16 +75,16 @@ const refreshAd = () => {
                     </div>
                     <div class="ad-pricing">
                         <div class="price-section">
-                            <span class="current-price">{{ currentAd.price }}</span>
-                            <span class="original-price">{{ currentAd.originalPrice }}</span>
-                            <span class="discount">{{ currentAd.discount }}</span>
+                            <span class="current-price">{{ adsStore.currentAd.price }}</span>
+                            <span class="original-price">{{ adsStore.currentAd.originalPrice }}</span>
+                            <span class="discount">{{ adsStore.currentAd.discount }}</span>
                         </div>
                         <button class="cta-button">
                             <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M7 17L17 7"/>
                                 <path d="M7 7h10v10"/>
                             </svg>
-                            {{ currentAd.cta }}
+                            {{ adsStore.currentAd.cta }}
                         </button>
                     </div>
                 </div>

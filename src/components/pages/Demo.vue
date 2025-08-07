@@ -76,16 +76,18 @@ import AdsCard from '../AdsCard.vue'
 
 .demo-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
     gap: 2rem;
     margin-bottom: 4rem;
     align-items: start;
+    justify-items: center;
 }
 
 .demo-section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 1640px;
     
     h2 {
         font-size: 1.5rem;
