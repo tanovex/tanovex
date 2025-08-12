@@ -1,10 +1,4 @@
-# 🎬 The Chit Show Episodes Playlist
-
-> *A curated collection of episodes from this hilarious workplace comedy series. Much better than YouTube's playlist feature!*
-
----
-
-## 📺 Episode Guide
+# 📺 The Chit Show Episodes
 
 | Episode | Title | Link |
 |---------|-------|------|
@@ -47,6 +41,7 @@
 | **Bistro Huddy** | 🍽️ Chit Comes to Bistro Huddy | [📹 Watch](https://www.youtube.com/shorts/QiBykgqNSyE) |
 | **Chit's New Friend** | 🐕 William the One-Eyed Pug (Bonus) | [📹 Watch](https://www.youtube.com/shorts/GsBMXsQ0fgY) |
 | **Bonus Chit** | 🗣️ Myeah! | [📹 Watch](https://youtube.com/shorts/YhYXYQGk27g) |
+| **Out of Office** | 🎯 Chit Meets @TheLethalShooter | [📹 Watch](https://www.youtube.com/watch?v=DIP3qPkH3X8) |
 
 ## 📊 Series Stats
 
@@ -63,9 +58,7 @@
 
 ---
 
-## 📝 Why This Page Exists
-
-I created this episode guide because YouTube's playlist feature is terrible for sharing and browsing. This gives friends an easy way to find and watch episodes without dealing with YouTube's clunky interface.
+> *A curated collection of episodes from this hilarious workplace comedy series. Much better than YouTube's playlist feature!*
 
 ---
 
