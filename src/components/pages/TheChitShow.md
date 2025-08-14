@@ -31,6 +31,7 @@
 | **27** | 🏆 Employee of the Year? | [📹 Watch](https://www.youtube.com/watch?v=__EwrZEY9Ts) |
 | **28** | ⚖️ Moment of Truth | [📹 Watch](https://www.youtube.com/watch?v=ctMKq9EjgHs) |
 | **29** | 👩‍💼 The Return of Candice Vice | [📹 Watch](https://www.youtube.com/watch?v=V9JnpOdvktU) |
+| **30** | 🔄 He's Finally Back | [📹 Watch](https://www.youtube.com/watch?v=SQWqdqANsq4) |
 
 ---
 
@@ -45,7 +46,7 @@
 
 ## 📊 Series Stats
 
-- **Total Episodes:** 29
+- **Total Episodes:** 30
 - **Format:** Short-form comedy
 - **Platform:** YouTube
 - **Genre:** Workplace Comedy
