@@ -32,6 +32,7 @@
 | **28** | ⚖️ Moment of Truth | [📹 Watch](https://www.youtube.com/watch?v=ctMKq9EjgHs) |
 | **29** | 👩‍💼 The Return of Candice Vice | [📹 Watch](https://www.youtube.com/watch?v=V9JnpOdvktU) |
 | **30** | 🔄 He's Finally Back | [📹 Watch](https://www.youtube.com/watch?v=SQWqdqANsq4) |
+| **31** | 🌍 EARTHQUAKE | [📹 Watch](https://www.youtube.com/watch?v=h7ZFyIQR1xQ) |
 
 ---
 
@@ -46,7 +47,7 @@
 
 ## 📊 Series Stats
 
-- **Total Episodes:** 30
+- **Total Episodes:** 31
 - **Format:** Short-form comedy
 - **Platform:** YouTube
 - **Genre:** Workplace Comedy
