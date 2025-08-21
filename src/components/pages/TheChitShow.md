@@ -44,6 +44,7 @@
 | **Chit's New Friend** | 🐕 William the One-Eyed Pug (Bonus) | [📹 Watch](https://www.youtube.com/shorts/GsBMXsQ0fgY) |
 | **Bonus Chit** | 🗣️ Myeah! | [📹 Watch](https://youtube.com/shorts/YhYXYQGk27g) |
 | **Out of Office** | 🎯 Chit Meets @TheLethalShooter | [📹 Watch](https://www.youtube.com/watch?v=DIP3qPkH3X8) |
+| **Bloopers** | 🎬 Chit Bloopers! | [📹 Watch](https://www.youtube.com/watch?v=ldrHbLf93vU) |
 
 ## 📊 Series Stats
 
@@ -57,6 +58,7 @@
 ## 🔗 Quick Links
 
 - [🎬 Watch All Episodes](https://www.youtube.com/@thechitshow)
+- [🎵 Listen on Spotify](https://open.spotify.com/album/27DnY0QceJpwQbKMYsSU4y)
 
 ---
 
