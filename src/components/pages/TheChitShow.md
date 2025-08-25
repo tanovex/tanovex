@@ -33,6 +33,7 @@
 | **29** | 👩‍💼 The Return of Candice Vice | [📹 Watch](https://www.youtube.com/watch?v=V9JnpOdvktU) |
 | **30** | 🔄 He's Finally Back | [📹 Watch](https://www.youtube.com/watch?v=SQWqdqANsq4) |
 | **31** | 🌍 EARTHQUAKE | [📹 Watch](https://www.youtube.com/watch?v=h7ZFyIQR1xQ) |
+| **32** | 📉 Bad News... | [📹 Watch](https://www.youtube.com/watch?v=4QM6-hwlhH8) |
 
 ---
 
@@ -48,7 +49,7 @@
 
 ## 📊 Series Stats
 
-- **Total Episodes:** 31
+- **Total Episodes:** 32
 - **Format:** Short-form comedy
 - **Platform:** YouTube
 - **Genre:** Workplace Comedy
