@@ -34,6 +34,7 @@
 | **30** | 🔄 He's Finally Back | [📹 Watch](https://www.youtube.com/watch?v=SQWqdqANsq4) |
 | **31** | 🌍 EARTHQUAKE | [📹 Watch](https://www.youtube.com/watch?v=h7ZFyIQR1xQ) |
 | **32** | 📉 Bad News... | [📹 Watch](https://www.youtube.com/watch?v=4QM6-hwlhH8) |
+| **33** | 👋 He's Retiring 😢 | [📹 Watch](https://www.youtube.com/watch?v=R-qoWzHByGY) |
 
 ---
 
@@ -49,7 +50,7 @@
 
 ## 📊 Series Stats
 
-- **Total Episodes:** 32
+- **Total Episodes:** 33
 - **Format:** Short-form comedy
 - **Platform:** YouTube
 - **Genre:** Workplace Comedy
