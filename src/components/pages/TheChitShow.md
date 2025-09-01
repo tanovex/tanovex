@@ -48,6 +48,7 @@
 | **Out of Office** | 🎯 Chit Meets @TheLethalShooter | [📹 Watch](https://www.youtube.com/watch?v=DIP3qPkH3X8) |
 | **Bloopers** | 🎬 Chit Bloopers! | [📹 Watch](https://www.youtube.com/watch?v=ldrHbLf93vU) |
 | **Interview** | 🗣️ Jay Renshaw AKA Chit: The Origin Story | [📹 Watch](https://www.youtube.com/watch?v=74QkrnbnPmk) |
+| **Bonus Chit** | 🛠️ LABOR DAY | [📹 Watch](https://www.youtube.com/watch?v=oULwaH-cDE0) |
 
 ## 📊 Series Stats
 
