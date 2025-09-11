@@ -37,6 +37,7 @@
 | **33** | 👋 He's Retiring 😢 | [📹 Watch](https://www.youtube.com/watch?v=R-qoWzHByGY) |
 | **34** | 🚗 Worst Carpool Ever | [📹 Watch](https://www.youtube.com/watch?v=z3b4pns_6hY) |
 | **35** | 🏢 Breaking into Corporate | [📹 Watch](https://www.youtube.com/watch?v=HCndALa4-2c) |
+| **36** | 🧑‍💼 Meeting the Founder | [📹 Watch](https://www.youtube.com/watch?v=AxmPuH_oy3s) |
 
 ---
 
@@ -54,7 +55,7 @@
 
 ## 📊 Series Stats
 
-- **Total Episodes:** 35
+- **Total Episodes:** 36
 - **Format:** Short-form comedy
 - **Platform:** YouTube
 - **Genre:** Workplace Comedy
