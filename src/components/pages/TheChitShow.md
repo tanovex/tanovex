@@ -38,6 +38,7 @@
 | **34** | 🚗 Worst Carpool Ever | [📹 Watch](https://www.youtube.com/watch?v=z3b4pns_6hY) |
 | **35** | 🏢 Breaking into Corporate | [📹 Watch](https://www.youtube.com/watch?v=HCndALa4-2c) |
 | **36** | 🧑‍💼 Meeting the Founder | [📹 Watch](https://www.youtube.com/watch?v=AxmPuH_oy3s) |
+| **37** | 💥 THE FINALE | [📹 Watch](https://www.youtube.com/watch?v=HON6_j4hMGY) |
 
 ---
 
@@ -55,7 +56,7 @@
 
 ## 📊 Series Stats
 
-- **Total Episodes:** 36
+- **Total Episodes:** 37
 - **Format:** Short-form comedy
 - **Platform:** YouTube
 - **Genre:** Workplace Comedy
