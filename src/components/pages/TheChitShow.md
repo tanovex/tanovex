@@ -1,3 +1,5 @@
+[⭐️ FULL SERIES SUPERCUT](https://www.youtube.com/watch?v=3fnRdtPsN4w)
+
 # 📺 The Chit Show Episodes
 
 | Episode | Title | Link |
