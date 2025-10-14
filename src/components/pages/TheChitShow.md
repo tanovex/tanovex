@@ -41,6 +41,7 @@
 | **35** | 🏢 Breaking into Corporate | [📹 Watch](https://www.youtube.com/watch?v=HCndALa4-2c) |
 | **36** | 🧑‍💼 Meeting the Founder | [📹 Watch](https://www.youtube.com/watch?v=AxmPuH_oy3s) |
 | **37** | 💥 THE FINALE | [📹 Watch](https://www.youtube.com/watch?v=HON6_j4hMGY) |
+| **38** | 🎃 He's Obsessed with Halloween | [📹 Watch](https://www.youtube.com/watch?v=yiI52I-hQqE) |
 
 ---
 
@@ -58,7 +59,7 @@
 
 ## 📊 Series Stats
 
-- **Total Episodes:** 37
+- **Total Episodes:** 38
 - **Format:** Short-form comedy
 - **Platform:** YouTube
 - **Genre:** Workplace Comedy
