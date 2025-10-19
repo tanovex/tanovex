@@ -56,6 +56,8 @@
 | **Bloopers** | 🎬 Chit Bloopers! | [📹 Watch](https://www.youtube.com/watch?v=ldrHbLf93vU) |
 | **Interview** | 🗣️ Jay Renshaw AKA Chit: The Origin Story | [📹 Watch](https://www.youtube.com/watch?v=74QkrnbnPmk) |
 | **Bonus Chit** | 🛠️ LABOR DAY | [📹 Watch](https://www.youtube.com/watch?v=oULwaH-cDE0) |
+| **Out of Office** | ⛳️ Chit Meets Bryson DeChambeau | [📹 Watch](https://www.youtube.com/shorts/WoMmrPlnkao) |
+| **Bonus Chit** | 🦸 Only one man could help him... | [📹 Watch](https://www.youtube.com/shorts/LBEPAIsHdt0) |
 
 ## 📊 Series Stats
 
