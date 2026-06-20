@@ -45,6 +45,9 @@
   <a href="https://www.linkedin.com/in/mcgeemd1">
     <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" />
   </a>
+  <a href="https://tanovex.com">
+    <img alt="Website" src="https://img.shields.io/badge/Website-blue" />
+  </a>
 </p>
 
 ---
